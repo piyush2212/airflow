@@ -61,7 +61,6 @@ check_preaggregation_status_task = CheckPreaggregationStatusSensor(
     url=CUBEJS_PREAGGREGATION_URL,
     trigger_task_id= 'trigger_preaggregation',
     api_token = CUBEJS_API_TOKEN,
-    provide_context=True,
     poke_interval=30,  # Check every 30s
     timeout=60*30,  # Timeout after 0.5 hours
     dag=dag,
