@@ -8493,3 +8493,66 @@
 [2024-06-05T10:09:37.363+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:09:37.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-05T10:09:37.393+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:09:37.393+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
 [2024-06-05T10:09:37.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.105 seconds
+[2024-06-05T10:10:07.454+0000] {processor.py:161} INFO - Started process (PID=28317) to work on /opt/airflow/dags/test_dag.py
+[2024-06-05T10:10:07.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-05T10:10:07.456+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:10:07.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:10:07.471+0000] {processor.py:840} INFO - DAG(s) 'cubejs_preaggregation_dag' retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:10:07.502+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:10:07.502+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T10:10:07.532+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:10:07.532+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T10:10:07.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.106 seconds
+[2024-06-05T10:10:37.658+0000] {processor.py:161} INFO - Started process (PID=28322) to work on /opt/airflow/dags/test_dag.py
+[2024-06-05T10:10:37.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-05T10:10:37.660+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:10:37.659+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:10:37.675+0000] {processor.py:840} INFO - DAG(s) 'cubejs_preaggregation_dag' retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:10:37.706+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:10:37.706+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T10:10:37.736+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:10:37.735+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T10:10:37.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.105 seconds
+[2024-06-05T10:11:07.793+0000] {processor.py:161} INFO - Started process (PID=28327) to work on /opt/airflow/dags/test_dag.py
+[2024-06-05T10:11:07.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-05T10:11:07.795+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:11:07.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:11:07.811+0000] {processor.py:840} INFO - DAG(s) 'cubejs_preaggregation_dag' retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:11:07.842+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:11:07.841+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T10:11:07.873+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:11:07.872+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T10:11:07.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.108 seconds
+[2024-06-05T10:11:38.004+0000] {processor.py:161} INFO - Started process (PID=28332) to work on /opt/airflow/dags/test_dag.py
+[2024-06-05T10:11:38.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-05T10:11:38.006+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:11:38.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:11:38.021+0000] {processor.py:840} INFO - DAG(s) 'cubejs_preaggregation_dag' retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:11:38.052+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:11:38.051+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T10:11:38.080+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:11:38.080+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T10:11:38.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.103 seconds
+[2024-06-05T10:12:08.132+0000] {processor.py:161} INFO - Started process (PID=28337) to work on /opt/airflow/dags/test_dag.py
+[2024-06-05T10:12:08.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-05T10:12:08.134+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:12:08.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:12:08.149+0000] {processor.py:840} INFO - DAG(s) 'cubejs_preaggregation_dag' retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:12:08.182+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:12:08.181+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T10:12:08.212+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:12:08.212+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T10:12:08.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.108 seconds
+[2024-06-05T10:12:38.349+0000] {processor.py:161} INFO - Started process (PID=28342) to work on /opt/airflow/dags/test_dag.py
+[2024-06-05T10:12:38.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-05T10:12:38.351+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:12:38.351+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:12:38.366+0000] {processor.py:840} INFO - DAG(s) 'cubejs_preaggregation_dag' retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:12:38.397+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:12:38.397+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T10:12:38.428+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:12:38.427+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T10:12:38.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.105 seconds
+[2024-06-05T10:13:08.485+0000] {processor.py:161} INFO - Started process (PID=28347) to work on /opt/airflow/dags/test_dag.py
+[2024-06-05T10:13:08.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-05T10:13:08.487+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:13:08.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:13:08.502+0000] {processor.py:840} INFO - DAG(s) 'cubejs_preaggregation_dag' retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:13:08.533+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:13:08.533+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T10:13:08.563+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:13:08.563+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T10:13:08.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.105 seconds
+[2024-06-05T10:13:38.697+0000] {processor.py:161} INFO - Started process (PID=28352) to work on /opt/airflow/dags/test_dag.py
+[2024-06-05T10:13:38.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-05T10:13:38.700+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:13:38.699+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:13:38.728+0000] {processor.py:840} INFO - DAG(s) 'cubejs_preaggregation_dag' retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:13:38.777+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:13:38.777+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T10:13:38.814+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:13:38.813+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T10:13:38.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.152 seconds
+[2024-06-05T10:14:08.959+0000] {processor.py:161} INFO - Started process (PID=28357) to work on /opt/airflow/dags/test_dag.py
+[2024-06-05T10:14:08.959+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_dag.py for tasks to queue
+[2024-06-05T10:14:08.960+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:14:08.960+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:14:08.976+0000] {processor.py:840} INFO - DAG(s) 'cubejs_preaggregation_dag' retrieved from /opt/airflow/dags/test_dag.py
+[2024-06-05T10:14:09.008+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:14:09.008+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-05T10:14:09.038+0000] {logging_mixin.py:188} INFO - [2024-06-05T10:14:09.037+0000] {dag.py:3954} INFO - Setting next_dagrun for cubejs_preaggregation_dag to 2024-06-04 00:00:00+00:00, run_after=2024-06-05 00:00:00+00:00
+[2024-06-05T10:14:09.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_dag.py took 0.108 seconds
