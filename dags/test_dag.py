@@ -6,10 +6,11 @@ from sensors import CheckPreaggregationStatusSensor
 import json
 from datetime import datetime, timedelta
 from airflow.exceptions import AirflowException
+import os
 
 # Replace these with your actual Cube.js API endpoints and authentication details
-CUBEJS_PREAGGREGATION_URL = 'http://cubeprod-in.unicommerce.infra:4000/cubejs-api/v1/pre-aggregations/jobs'
-CUBEJS_API_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTc2NTU1Mzh9.bW3yk8-Mn6XCGSGI5CmCHO8tl0b_BgHhMx7yxWiTWo'
+CUBEJS_PREAGGREGATION_URL = os.getenv('CUBEJS_PREAGGREGATION_URL')
+CUBEJS_API_TOKEN = os.getenv('CUBEJS_API_TOKEN')
 
 def trigger_preaggregation(**kwargs):
     headers = {
